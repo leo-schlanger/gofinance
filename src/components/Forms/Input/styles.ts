@@ -5,6 +5,7 @@ import styled from "styled-components/native";
 
 export const Container = styled(TextInput)`
   width: 100%;
+
   padding: 16px 18px;
 
   font-family: ${({theme}) => theme.fonts.regular};
