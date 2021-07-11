@@ -18,6 +18,7 @@ import {
 import theme from './src/global/styles/theme';
 
 import { AppRoutes } from "./src/routes/app.routes";
+import { SignIn } from './src/screens/SignIn';
 
 export default function App() {
   const [fontsLoaded, error] = useFonts({
@@ -34,7 +35,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <StatusBar barStyle="light-content"/>
       <NavigationContainer>
-        <AppRoutes />
+        <SignIn />
       </NavigationContainer>
     </ThemeProvider>
   );
